@@ -23,7 +23,7 @@ const SocialLinks = () => {
                 Github <FaGithub size={30}/>
                 </>
             ),
-            href:'https://github.com',
+            href:'https://github.com/Sudhgaur/react-portfolio',
            
 
         },
@@ -52,7 +52,7 @@ const SocialLinks = () => {
         },
     ];
   return (
-    <div className=" hidden lg:flex flex-col  top-[35%] left-0 fixed">
+    <div className=" hidden lg:flex flex-col  top-[35%] left-0 fixed md:flex-row">
         <ul>
 
 
