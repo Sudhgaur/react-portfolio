@@ -14,12 +14,12 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-15">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          deleniti a animi voluptatem veritatis quibusdam sed totam repellat
-          aliquam neque possimus consectetur perferendis dignissimos eligendi
-          quasi harum repudiandae ullam obcaecati similique nam iste, explicabo
-          dolore ad. Eveniet iure at expedita eos aliquam assumenda maiores
-          eaque? Vitae expedita minus error hic.
+          To kickstart my career as a front-end developer, I aim to leverage my
+          technical skills in HTML, CSS, JavaScript and React JS to develop
+          visually appealing and user-friendly websites. By collaborating with
+          experienced professionals, I intend to contribute to innovative
+          projects and gain practical experience in delivering high-quality
+          front-end solutions.
         </p>
         <br />
         <p className="text-xl ">

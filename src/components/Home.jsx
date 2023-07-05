@@ -19,10 +19,12 @@ const Home = () => {
             <br /> Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
-            excepturi et tempore nihil asperiores, incidunt aliquid corrupti
-            voluptas laboriosam harum eos vel minus esse error eius cupiditate
-            officia at ipsum quo quae ad accusantium.
+            To kickstart my career as a front-end developer, I aim to leverage
+            my technical skills in HTML, CSS, JavaScript and React JS to develop
+            visually appealing and user-friendly websites. By collaborating with
+            experienced professionals, I intend to contribute to innovative
+            projects and gain practical experience in delivering high-quality
+            front-end solutions.
           </p>
 
           <div>
