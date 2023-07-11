@@ -1,9 +1,9 @@
 import React from "react";
 import reverb from "../assets/reverb.png";
-import reverbone from "../assets/futuretools.png";
-import reverbtwo from "../assets/reverb.png";
-import reverbthree from "../assets/futuretools.png";
-import reverbfour from "../assets/reverb.png";
+import reverbone from "../assets/Travel.png";
+import reverbtwo from "../assets/BeBrain.png";
+import reverbthree from "../assets/Maac.png";
+import reverbfour from "../assets/SS Rooms.png";
 import reverbfive from "../assets/futuretools.png";
 
 const Portfolio = () => {
@@ -11,26 +11,33 @@ const Portfolio = () => {
     {
       id: 1,
       src: reverb,
+      details:"HTML,CSS,React JS, JavaScript, Bootstrap"
     },
     {
       id: 2,
       src: reverbone,
+      details:"HTML,CSS,React JS, JavaScript",
+      link:"https://tour-b7f0f.web.app/"
     },
     {
       id: 3,
       src: reverbtwo,
+      details:"HTML,CSS,React JS, JavaScript, Bootstrap"
     },
     {
       id: 4,
       src: reverbthree,
+      details:"HTML,CSS,React JS, JavaScript, Bootstrap"
     },
     {
       id: 5,
       src: reverbfour,
+      details:"HTML,CSS,React JS"
     },
     {
       id: 6,
       src: reverbfive,
+      details:"HTML,CSS,React JS"
     },
   ];
   return (
@@ -46,21 +53,24 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 render-img">
+          {portfolios.map(({ id, src, details='React',link=undefined }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 h-50 w-100"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+              <div className="flex flex-col items-center justify-center p-2 flex-nowrap break-words">
+                 <p><b>Technologies Used : </b>{details} </p>
+
+                
+                {link ? <button className="mt-2 duration-200 hover:scale-105" onClick={()=>window.open(link,'_blank')}>
+                  Live Demo
+                </button>:null}
+                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
-                </button>
+                </button> */}
               </div>
             </div>
           ))}

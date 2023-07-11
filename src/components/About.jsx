@@ -23,14 +23,26 @@ const About = () => {
         </p>
         <br />
         <p className="text-xl ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          facere eos debitis distinctio commodi laudantium hic voluptates alias
-          voluptatibus beatae vel dolore fugit, fugiat modi nesciunt dicta
-          assumenda laborum ipsa? Ipsam sequi quo dolorum nemo nam incidunt,
-          consequuntur eos nihil excepturi expedita! Molestias nam ex vel odit
-          optio maiores incidunt voluptatibus? Enim perferendis consequatur vel
-          natus aperiam sunt, eveniet nemo. Vel, veniam dolores doloremque
-          asperiores repudiandae laudantium accusamus eveniet omnis!
+          I recently completed my studies in computer science, where I acquired
+          a strong foundation in front-end technologies such as HTML, CSS, and
+          JavaScript. Through coursework and practical projects, I honed my
+          skills in crafting well-structured web pages, implementing attractive
+          designs, and adding interactivity to enhance user experiences.
+        </p>
+        <br />
+        <p className="text-xl ">
+          I am proficient in responsive design principles, which enables me to
+          build websites that adapt seamlessly to different screen sizes and
+          devices. I understand the importance of delivering a consistent
+          experience to users, regardless of whether they are accessing the
+          website from a desktop, tablet, or mobile phone.
+          <br />
+          In addition to technical skills, I possess strong communication and
+          teamwork abilities. I believe effective collaboration is essential to
+          create successful web projects. I actively listen to others'
+          perspectives, share ideas openly, and work collaboratively to achieve
+          project goals. I value constructive feedback and continuously seek
+          opportunities to learn and grow.
         </p>
       </div>
     </div>

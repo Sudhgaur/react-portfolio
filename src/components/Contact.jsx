@@ -8,9 +8,10 @@ const Contact = () => {
         <div className='flex flex-col p-4 justify-center
         max-w-screen-lg mx-auto h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline 
+                <p className='text-4xl font-bold
                 border-b-4 border-gray-500'>Contact</p>
                 <p className='py-6'>Submit the form below to get in touch with me</p>
+                <p className='py-6 contact'><b>Contact Me: </b>+91 6398012953</p>
             </div>
 
             <div className='flex justify-center items-center'>

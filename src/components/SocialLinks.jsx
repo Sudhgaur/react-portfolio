@@ -45,7 +45,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href:'/MyResume.pdf',
+            href:'/Sudhanshu gaur Cv.pdf',
             style:'rounded-br-md',
             download:true,
 
